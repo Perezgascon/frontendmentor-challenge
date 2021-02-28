@@ -1,0 +1,89 @@
+body {
+  background-color: #00B6C7;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+}
+
+p {
+}
+
+/***********************CLASSESS**************************/
+
+
+
+/***********************UNUSED CODE
+
+
+position: absolute;
+top: 2060px;
+right: 655px;
+
+
+*********************/
+
+/**************************** NOTES
+
+Experiment with z-code to put buttom bubble in the background
+
+
+******************************/
+
+.top-bubble {
+  position: relative;
+  bottom: 500px;
+  right: 500px;
+}
+
+.bottom-bubble {
+  position: relative;
+  bottom: 1100px;
+  left: 500px;
+}
+
+.image-box {
+  border-radius: 5%;
+  width: 24.9%;
+  margin: auto auto 100px;
+  background-color: white;
+  position: relative;
+  bottom: 750px;
+  z-index: 1;
+  box-shadow: 5px 10px 50px -20px;
+}
+
+.pattern-card {
+  position: relative;
+  width: 100%;
+  border-radius: 5% 5% 0 0;
+}
+
+.victor-image {
+  margin: auto auto -55px auto;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  bottom: 55px;
+
+
+  }
+
+.age {
+  color: #71737A;
+}
+
+.london {
+  color: #71737A;
+  font-size: 15px;
+}
+
+.stats {
+  display: inline-block;
+  margin: auto 20px auto;
+}
+
+.categories {
+  color: #71737A;
+  font-size: 13px;
+}
